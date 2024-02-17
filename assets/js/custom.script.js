@@ -134,7 +134,7 @@
         if ( $('#lgx-countdown').length ) {
 
             var dataTime = $('#lgx-countdown').data('date'); // Date Format : Y/m/d
-
+            console.log(dataTime);
             $('#lgx-countdown').countdown(dataTime, function(event) {
                 var $this = $(this).html(event.strftime(''
                     + '<span class="lgx-weeks">%w <i> weeks </i></span>'
